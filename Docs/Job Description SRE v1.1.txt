@@ -1,0 +1,28 @@
+Temos vagas! 
+
+Somos o maior conglomerado financeiro do Hemisfério Sul e no final do ano passado ficamos no décimo quarto lugar na lista de bancos do mundo de maior valor (por capitalização de mercado). Para acelerarmos nossa evolução, já embarcamos em uma jornada de Site Reliability Engineering (SRE), inspirado nas práticas da Google, para garantir cada vez mais confiabilidade e alavancar a qualidade dos nossos produtos. 
+
+Quer fazer parte do time que define e implementa SRE para o banco? Quer impulsionar nossa transformação? Então não há um momento melhor para estar conosco.
+
+Temos vagas de júnior a sénior. 
+
+A postura que estamos procurando: 
+Sentimento de dono 
+Autodidata 
+Apaixonado por tecnologia 
+
+No time temos 2 funções: System Engineer e Software Engineer (se tiver experiencia hibrida voce também será muito bem-vindo!) 
+
+SOFTWARE ENGINEER: 
+Linguagens de programação 
+Integração de Sistemas 
+Design Patterns 
+Tracing, Logs, Métricas 
+Debugging 
+
+SYSTEMS ENGINEER: 
+Sistemas operacionais 
+Automação 
+Arquitetura e performance de sistemas distribuídos 
+
+Gostaria de fazer parte da jornada? Encaminhe o seu currículo em formato pdf junto com uma mensagem que explica como você poderia contribuir.

@@ -1,0 +1,223 @@
+{
+	"info": {
+		"_postman_id": "2ff847dd-e7b9-4510-867a-1f9a1306a5c3",
+		"name": "TheCatAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET_Categorias",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-api-key",
+						"value": "207eda2d-c0d4-49f5-b4ad-445f8200cc0b",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/categories",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"categories"
+					]
+				},
+				"description": "GET_categories"
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Racas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "207eda2d-c0d4-49f5-b4ad-445f8200cc0b",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/breeds",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"breeds"
+					]
+				},
+				"description": "GET_Racas"
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Raca_Especifica",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"type": "text",
+						"value": "207eda2d-c0d4-49f5-b4ad-445f8200cc0b"
+					}
+				],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/breeds/search?q=Sib",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"breeds",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Sib"
+						}
+					]
+				},
+				"description": "GET_Raca_Especifica"
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Imagen_Raca",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "207eda2d-c0d4-49f5-b4ad-445f8200cc0b",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/images/search?breed_id=sibe&limit=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"images",
+						"search"
+					],
+					"query": [
+						{
+							"key": "breed_id",
+							"value": "sibe"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				},
+				"description": "GET_Image_Breed"
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Imagem_Categoria_Chapel",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "207eda2d-c0d4-49f5-b4ad-445f8200cc0b",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/images/search?category_ids=1&limit=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"images",
+						"search"
+					],
+					"query": [
+						{
+							"key": "category_ids",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				},
+				"description": "GET_Image_Caterory"
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Imagem_Categoria_Oculos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "207eda2d-c0d4-49f5-b4ad-445f8200cc0b",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.thecatapi.com/v1/images/search?category_ids=4&limit=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"thecatapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"images",
+						"search"
+					],
+					"query": [
+						{
+							"key": "category_ids",
+							"value": "4"
+						},
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				},
+				"description": "GET_Image_Category_2"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

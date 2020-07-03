@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "8dbdaa85-f18b-4439-8ec1-6ecec25aeee4",
+		"name": "Collection_CatAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Raças",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8752/racas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8752",
+					"path": [
+						"racas"
+					]
+				},
+				"description": "Listagem do nome de todas as raças"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Inf. Raça",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8752/racas/British",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8752",
+					"path": [
+						"racas",
+						"British"
+					]
+				},
+				"description": "Listagem das informações de uma raça (se exitir mais de 1 raça que satisfaça a condição todas serão mostradas)"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Raças Temperamento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8752/racasTemperamento/Curious",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8752",
+					"path": [
+						"racasTemperamento",
+						"Curious"
+					]
+				},
+				"description": "Listagem do nome das raças que possuem um determinado temperamento"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Raças Origem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8752/racasOrigem/United Kingdom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8752",
+					"path": [
+						"racasOrigem",
+						"United Kingdom"
+					]
+				},
+				"description": "Listagem do nome das raças de uma determinada Origem"
+			},
+			"response": []
+		},
+		{
+			"name": "Logging",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8752/logging",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8752",
+					"path": [
+						"logging"
+					]
+				},
+				"description": "Listagem do logging das requisições para ser utilizado em um software de análise de log"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
